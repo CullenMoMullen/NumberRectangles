@@ -41,7 +41,7 @@ typedef struct _Point_t {
     int y;
 } Point_t;
 
-// Given a number of input points, determine how many rectangles can be drawn amongst sets of 4 unique points
+// Given points, determine how many rectangles can be drawn amongst them, overlapping rectanglges should be counted
 Point_t arr[] = {
     {2,1},
     {5,1},
